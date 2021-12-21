@@ -1,6 +1,6 @@
 .navbar{
 background-size: 100%;
-    background-image: url("/img/wood2.jpg");
+    background-image: url("/GottNereus.github.io/img/wood3.jpg");
     background-repeat: no-repeat;
     font-family: 'Kings', cursive;
     border-bottom: black solid 5px;
@@ -10,18 +10,33 @@ font-size: 150px;
 color: black;
 }
 #picture1{
-
-
-   background-image: url("/img/tanne1.jpg");
+   background-image: url("/GottNereus.github.io/img/tanne1.jpg");
    border-bottom: black solid 5px;
 }
+#picture2{
+    background-image: url("/GottNereus.github.io/img/tanne2.jpg");
+    border-bottom: black solid 5px;
+ }
+ #picture3{
+    background-image: url("/GottNereus.github.io/img/wood4.jpg");
+    border-bottom: black solid 5px;
+ }
 #Pictureone{
 width:750px;
     margin-left: 145%;
     margin-top: 25px;
     margin-bottom: 25px;
-
 }
+
+.card{
+border: black solid 2px;
+border-bottom: black solid 5px;
+}
+.card-body{
+
+background-color: #91804E;
+}
+
 /* div{
 border: red solid 1px;
 } */
@@ -29,6 +44,6 @@ border: red solid 1px;
     background-size: 100%;
     background-image: 
     linear-gradient(to right, rgba(100,100,100,0.5), rgba(100,100,100,0.5)),
-    url("/img/orange.jpg");
+    url("/GottNereus.github.io/img/orange1.jpg");
     
 }
