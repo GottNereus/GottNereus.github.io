@@ -1,0 +1,109 @@
+.navbar{
+background-size: 100%;
+    background-image: url("/img/wood3.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Kings', cursive;
+    border-bottom: black solid 5px;
+}
+#title{
+font-size: 150px;
+color: black;
+}
+#picture1{
+   background-image: url("/img/tanne1.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   border-bottom: black solid 5px;
+}
+#picture2{
+    background-image: url("/img/tanne2.jpg");
+    border-bottom: black solid 5px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+ #picture3{
+    background-image: url("/img/wood4.jpg");
+    border-bottom: black solid 5px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+ 
+#Pictureone{
+width:750px;
+    margin-left: 30%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+    
+}
+.text{
+margin-top: 5%;
+margin-left: 10%;
+font-size: 40px;
+color: black;
+background-color: rgba(145,128,78,0.5); 
+font-family: 'Kings';
+}
+.text1{
+ margin-top: 5%;
+ margin-left: 10%;
+ font-size: 40px;
+ color: black;
+ background-color: rgba(73,84,68,0.5); 
+ font-family: 'Kings';
+    }
+.text2{
+margin-top: 5%;
+margin-left: 10%; 
+font-size: 40px;
+color: black;
+ 
+font-family: 'Kings';
+}
+.text3{
+ margin-top: 5%;
+ margin-bottom: 5%;
+ margin-left: 10%;
+ font-size: 100px;
+ color: black;
+ background-color: rgba(132,80,70,0.7); 
+ font-family: 'Kings';
+ }
+.row{
+    width: 100.8%;
+}
+
+.card{
+border: black solid 2px;
+border-bottom: black solid 5px;
+}
+.card-body{
+
+background-color: #91804E;
+}
+#fglogg{
+height:350px;
+width: auto;
+margin-right: 5%;
+float: right;
+margin-top: 5%;
+
+}
+
+footer{
+font-size: 25px;
+text-align: center;
+margin-top: 25%;
+
+}
+.impressum_name{
+
+    font-size: 20px;
+}
+.footer_background{
+    background-size: 100%;
+    background-image: 
+    linear-gradient(to right, rgba(100,100,100,0.5), rgba(100,100,100,0.5)),
+    url("/img/orange1.jpg");
+    
+}
