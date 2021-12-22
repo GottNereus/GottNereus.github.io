@@ -1,41 +1,52 @@
 .navbar{
-background-size: 100%;
+
     background-image: url("/img/wood3.jpg");
     background-repeat: no-repeat;
+    background-size:cover;
     font-family: 'Kings', cursive;
     border-bottom: black solid 5px;
+   
+    
 }
-#title{
-font-size: 150px;
-color: black;
+
+.title{
+font-size: 10vw;
+color: #91804E;
+
 }
+
 #picture1{
    background-image: url("/img/tanne1.jpg");
    background-repeat: no-repeat;
-   background-size: 100%;
+   background-size: cover;
    border-bottom: black solid 5px;
+   
 }
 #picture2{
     background-image: url("/img/tanne2.jpg");
     border-bottom: black solid 5px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    
  }
  #picture3{
     background-image: url("/img/wood4.jpg");
     border-bottom: black solid 5px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
  }
  
-#Pictureone{
-width:750px;
-    margin-left: 30%;
+.Pictureone{
+    width:60%;
+    margin-left: 38%;
     margin-top: 25px;
     margin-bottom: 25px;
-   
-    
 }
+.row{
+margin-left: -15px;
+margin-right: 0px;
+}
+
 .text{
 margin-top: 5%;
 margin-left: 10%;
@@ -69,20 +80,21 @@ font-family: 'Kings';
  background-color: rgba(132,80,70,0.7); 
  font-family: 'Kings';
  }
-.row{
-    width: 100.8%;
-}
+
 
 .card{
 border: black solid 2px;
 border-bottom: black solid 5px;
-}
-.card-body{
-
 background-color: #91804E;
+
 }
+.card-group{
+
+    background-color: black;
+}
+
 #fglogg{
-height:350px;
+height:32vh;
 width: auto;
 margin-right: 5%;
 float: right;
@@ -96,14 +108,53 @@ text-align: center;
 margin-top: 25%;
 
 }
+#impressum{
+    font-family: 'Kings';
+    font-size: 50px; 
+    margin-left: -5%;
+}
 .impressum_name{
-
-    font-size: 20px;
+    font-family: 'Kings';
+    font-size: 30px;
+    margin-left: -5%;
 }
 .footer_background{
-    background-size: 100%;
+    background-size: cover;
     background-image: 
     linear-gradient(to right, rgba(100,100,100,0.5), rgba(100,100,100,0.5)),
     url("/img/orange1.jpg");
     
 }
+.snowflake {
+    color: #fff;
+    font-size: 2em;
+    font-family: Arial;
+    text-shadow: 0 0 1px #000;
+  }
+  
+  @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}
+  @-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}
+  .snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}
+  .snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}
+  .snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}
+  .snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}
+  .snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}
+  .snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}
+  .snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}
+  .snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}
+  .snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}
+  .snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}
+  .snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,0s}
+  
+  .demo {
+    font-family: 'Raleway', sans-serif;
+      color:#fff;
+      display: block;
+      margin: 0 auto;
+      padding: 15px 0;
+      text-align: center;
+  }
+  .demo a{
+    font-family: 'Raleway', sans-serif;
+  color: #000;		
+  }
