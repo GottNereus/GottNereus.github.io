@@ -111,12 +111,12 @@ margin-top: 25%;
 #impressum{
     font-family: 'Kings';
     font-size: 50px; 
-    margin-left: -5%;
+    margin-left: 5%;
 }
 .impressum_name{
     font-family: 'Kings';
     font-size: 30px;
-    margin-left: -5%;
+    margin-left: 5%;
 }
 .footer_background{
     background-size: cover;
@@ -158,3 +158,14 @@ margin-top: 25%;
     font-family: 'Raleway', sans-serif;
   color: #000;		
   }
+  
+.button {
+    font-size: 15px;
+    border: 2px solid #B61B51;
+    border-radius: 200px;
+   height: 25%;
+   width: 200%;
+   margin-top: 90%;
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
